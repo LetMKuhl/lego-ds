@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Spacing-->
+    <!--I used DP instead of PX, because it works better when it comes to mobile responsiveness-->
+    <dimen name="dimen_smallest">2dp</dimen>
+    <dimen name="dimen_smaller">4dp</dimen>
+    <dimen name="dimen_smal">8dp</dimen>
+    <dimen name="dimen_medium">12dp</dimen>
+    <dimen name="dimen_big">16dp</dimen>
+    <dimen name="dimen_bigger">24dp</dimen>
+    <dimen name="dimen_biggest">32dp</dimen>
+
+</resources>
