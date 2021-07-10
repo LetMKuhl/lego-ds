@@ -7,7 +7,7 @@
     tools:background="@drawable/button_progress_state_primary">
     
     <TextView
-        android:id="@+id/text_buttom"
+        android:id="@+id/text_primary_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingVertical="16dp"
@@ -25,7 +25,7 @@
         app:srcCompat="@drawable/chevron_right"
         android:paddingVertical="16dp"
         android:paddingHorizontal="6dp"
-        app:layout_constraintLeft_toRightOf="@+id/text_buttom"
+        app:layout_constraintLeft_toRightOf="@+id/text_primary_button"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--  TextAppearance  -->
+
+    <!--  TextAppearance Primary -->
     <style name="TextAppearance" parent="TextAppearance.AppCompat">
         <item name="android:fontFamily">@font/montserrat_family</item>
     </style>
@@ -34,6 +35,12 @@
     <style name="TextAppearance.Heading5">
         <item name="android:textSize">17sp</item>
         <item name="android:textColor">@color/color_black</item>
+        <item name="android:fontFamily">@font/montserrat_extra_bold</item>
+    </style>
+
+    <style name="TextAppearance.Heading6">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/color_white</item>
         <item name="android:fontFamily">@font/montserrat_extra_bold</item>
     </style>
 

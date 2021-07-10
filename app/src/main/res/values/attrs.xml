@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="ProgressButton">
-        <attr name="titleButton" format="string"/>
-        <attr name="titleDeseableButton" format="string"/>
+    <declare-styleable name="ProgressPrimaryButton">
+        <attr name="title_primary_button" format="string"/>
+        <attr name="title_primary_deseable_button" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ProgressSecondaryButton">
+        <attr name="title_secondary_button" format="string"/>
+        <attr name="title_secondary_deseable_button" format="string"/>
     </declare-styleable>
 
 </resources>
