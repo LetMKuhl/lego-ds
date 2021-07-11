@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">LegoDS</string>
     <string name="primary_buttom">Primeiro</string>
+    <string name="disabled_buttom">Carregando...</string>
+    <string name="secondary_buttom">Secundário</string>
 </resources>

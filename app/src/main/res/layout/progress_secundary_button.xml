@@ -7,25 +7,25 @@
     tools:background="@drawable/button_progress_state_secundary">
 
     <TextView
-        android:id="@+id/text_secondary_buttom"
+        android:id="@+id/text_secondary_button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingVertical="16dp"
-        android:paddingHorizontal="6dp"
-        style="@style/TextAppearance.Heading6"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        style="@style/TextAppearance.Heading5"
+        android:textColor="@color/color_white"
         android:text="Button"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/iv_chevron_right_secondary"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:gravity="center"
         app:srcCompat="@drawable/chevron_right"
-        android:paddingVertical="16dp"
-        android:paddingHorizontal="6dp"
-        app:layout_constraintLeft_toRightOf="@+id/text_secondary_buttom"
+        app:layout_constraintLeft_toRightOf="@+id/text_secondary_button"
         tools:ignore="MissingConstraints"
         app:tint="@color/color_white" />
 

@@ -3,12 +3,12 @@
 
     <declare-styleable name="ProgressPrimaryButton">
         <attr name="title_primary_button" format="string"/>
-        <attr name="title_primary_deseable_button" format="string"/>
+        <attr name="title_primary_disabled_button" format="string"/>
     </declare-styleable>
 
     <declare-styleable name="ProgressSecondaryButton">
         <attr name="title_secondary_button" format="string"/>
-        <attr name="title_secondary_deseable_button" format="string"/>
+        <attr name="title_secondary_disabled_button" format="string"/>
     </declare-styleable>
 
 </resources>

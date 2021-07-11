@@ -9,9 +9,8 @@
     <TextView
         android:id="@+id/text_primary_button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingVertical="16dp"
-        android:paddingHorizontal="6dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
         style="@style/TextAppearance.Heading5"
         android:text="Button"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -19,12 +18,12 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/iv_chevron_right_primary"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:gravity="center"
         app:srcCompat="@drawable/chevron_right"
-        android:paddingVertical="16dp"
-        android:paddingHorizontal="6dp"
         app:layout_constraintLeft_toRightOf="@+id/text_primary_button"
         tools:ignore="MissingConstraints" />
 
