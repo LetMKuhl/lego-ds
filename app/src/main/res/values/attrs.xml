@@ -11,4 +11,10 @@
         <attr name="title_secondary_disabled_button" format="string"/>
     </declare-styleable>
 
+    <declare-styleable name="CustomCardView">
+        <attr name="text_card_view" format="string"/>
+        <attr name="card_view_date_text" format="string"/>
+        <attr name="background_card_view" format="color"/>
+    </declare-styleable>
+
 </resources>

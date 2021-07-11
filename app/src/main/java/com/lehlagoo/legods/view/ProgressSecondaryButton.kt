@@ -38,7 +38,7 @@ class ProgressSecondaryButton @JvmOverloads constructor(
                 attributeSet,
                 R.styleable.ProgressSecondaryButton
             )
-            setBackgroundResource(R.drawable.button_progress_state_secundary)
+            setBackgroundResource(R.drawable.button_progress_state_secondary)
 
             val titleSecondaryResId =
                 attributes.getResourceId(R.styleable.ProgressSecondaryButton_title_secondary_button, 0)
