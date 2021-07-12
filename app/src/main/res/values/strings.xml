@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">LegoDS</string>
-    <string name="primary_buttom">Primary</string>
+    <string name="primary_buttom">Go to Avatar</string>
     <string name="secondary_buttom">Secondary</string>
     <string name="disabled_buttom">Loading…</string>
+    <string name="follow_button">Follow</string>
+    <string name="unfollow_status">Unfollow</string>
+    <string name="default_username">Leticia Mori</string>
+    <string name="default_job">Dev Android</string>
 </resources>

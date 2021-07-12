@@ -1,5 +1,6 @@
 package com.lehlagoo.legods.view
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.lifecycleScope
@@ -21,16 +22,20 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.iconButtomPrimary.setOnClickListener{
+
+        binding.iconButtomPrimary.setOnClickListener {
             binding.iconButtomPrimary.setDisabled()
+            val intent = Intent(this, ImageAvatarCardActivity::class.java)
 
             lifecycleScope.launch {
                 delay(2_000)
                 binding.iconButtomPrimary.setNormal()
+                startActivity(intent)
             }
+
         }
 
-        binding.iconButtomSecondary.setOnClickListener{
+        binding.iconButtomSecondary.setOnClickListener {
             binding.iconButtomSecondary.setDisabled()
 
             lifecycleScope.launch {
@@ -40,4 +45,5 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
 }

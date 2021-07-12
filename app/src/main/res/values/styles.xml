@@ -57,6 +57,12 @@
         <item name="android:fontFamily">@font/montserrat_extra_bold</item>
     </style>
 
+    <style name="TextAppearance.Subtitle4">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:fontFamily">@font/montserrat_extra_bold</item>
+    </style>
+
     <!--TextAppearance.Paragraph-->
     <style name="TextAppearance.Paragraph">
         <item name="android:textSize">12sp</item>

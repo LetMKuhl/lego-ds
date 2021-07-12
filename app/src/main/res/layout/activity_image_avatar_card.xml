@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_yellow"
+    tools:context=".view.ImageAvatarCardActivity">
+
+    <com.lehlagoo.legods.view.ImageAvatarCardView
+        android:id="@+id/avatar_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/color_white"
+        android:layout_marginStart="@dimen/dimen_medium"
+        android:layout_marginEnd="@dimen/dimen_medium"
+        android:layout_marginTop="@dimen/dimen_biggest"
+        app:follow_button="@string/follow_button"
+        app:avatar_username="@string/default_username"
+        app:avatar_username_job="@string/default_job"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_bigger"
+        app:layout_constraintTop_toBottomOf="@+id/avatar_card"
+        android:src="@drawable/big_standing_color_1"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

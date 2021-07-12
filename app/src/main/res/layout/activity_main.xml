@@ -15,6 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        android:backgroundTint="@color/primary_button_colors"
         app:title_primary_button="@string/primary_buttom"
         app:title_primary_disabled_button="@string/disabled_buttom"/>
 
@@ -26,6 +27,7 @@
         app:layout_constraintTop_toBottomOf="@id/icon_buttom_primary"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        android:backgroundTint="@color/secondary_button_colors"
         app:title_secondary_button="@string/secondary_buttom"
         app:title_secondary_disabled_button="@string/disabled_buttom"/>
 
