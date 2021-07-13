@@ -43,4 +43,4 @@ possibilidades através das tabelas de propriedades e eventos no fim da página:
 
 | Nome    | Descrição                                                    | Tipo      | Obrigatório |
 |---------|--------------------------------------------------------------|-----------|-------------|
-| style   | Define o estilo da fonte                                    |   String  |    Sim      |
+| style   | Define o estilo da fonte                                     |   String  |    Sim      |
