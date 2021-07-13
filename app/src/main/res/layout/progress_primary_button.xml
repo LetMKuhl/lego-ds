@@ -20,6 +20,7 @@
     <ImageView
         android:id="@+id/iv_chevron_right_primary"
         android:layout_width="wrap_content"
+        android:importantForAccessibility="no"
         android:layout_height="match_parent"
         android:visibility="visible"
         android:gravity="center"

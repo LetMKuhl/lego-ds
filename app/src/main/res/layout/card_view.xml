@@ -14,16 +14,18 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dimen_medium"
         android:layout_marginTop="@dimen/dimen_small"
+        android:contextClickable="false"
         android:src="@drawable/sun"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/text_example_card"
-        style="@style/TextAppearance.Heading3"
+        style="@style/TextAppearance.Heading4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/dimen_medium"
+        android:layout_marginStart="@dimen/dimen_medium"
+        android:contextClickable="true"
         android:paddingBottom="@dimen/dimen_medium"
         android:text="Example Test"
         app:layout_constraintLeft_toLeftOf="parent"

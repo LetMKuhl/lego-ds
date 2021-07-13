@@ -13,10 +13,12 @@
         android:id="@+id/avatar_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contextClickable="true"
         android:layout_marginStart="@dimen/dimen_medium"
         android:layout_marginTop="@dimen/dimen_biggest"
         android:layout_marginEnd="@dimen/dimen_medium"
         android:backgroundTint="@color/color_white"
+        android:contentDescription="@string/username_job_description"
         app:avatar_username="@string/default_username"
         app:avatar_username_job="@string/default_job"
         app:follow_button="@string/follow_button"
@@ -27,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dimen_bigger"
+        android:importantForAccessibility="no"
         android:src="@drawable/big_standing_color_1"
         app:layout_constraintTop_toBottomOf="@+id/avatar_card" />
 

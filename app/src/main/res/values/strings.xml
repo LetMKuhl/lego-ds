@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name" translatable="false">LegoDS</string>
-    <string name="primary_buttom">Go to avatar</string>
-    <string name="secondary_buttom">Go to cards</string>
-    <string name="disabled_buttom">Loading…</string>
+    <string name="primary_button">Go to avatar</string>
+    <string name="secondary_button">Go to cards</string>
+    <string name="disabled_button">Loading…</string>
     <string name="follow_button">Follow</string>
     <string name="unfollow_status">Unfollow</string>
     <string name="default_username" translatable="false">Leticia Mori</string>
@@ -13,5 +13,7 @@
     <string name="default_text_card_2">For those who believe in the impossible!</string>
     <string name="default_likes_2" translatable="false">1M</string>
     <string name="default_comments_2" translatable="false">500k</string>
+    <string name="default_text_card">The dreams come true!</string>
+    <string name="username_job_description">Name: Letícia Mori, Job: Android developer</string>
 
 </resources>

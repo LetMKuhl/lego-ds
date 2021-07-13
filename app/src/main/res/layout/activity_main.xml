@@ -11,33 +11,36 @@
         android:id="@+id/image_peep"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/landscape_color_1"
         android:layout_marginBottom="@dimen/dimen_biggest"
-        app:layout_constraintBottom_toTopOf="@+id/buttom_primary" />
+        android:importantForAccessibility="no"
+        android:src="@drawable/landscape_color_1"
+        app:layout_constraintBottom_toTopOf="@+id/button_primary" />
 
     <com.lehlagoo.legods.view.ProgressPrimaryButton
-        android:id="@+id/buttom_primary"
+        android:id="@+id/button_primary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary_button_colors"
+        android:contentDescription="@string/primary_button"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:backgroundTint="@color/primary_button_colors"
-        app:title_primary_button="@string/primary_buttom"
-        app:title_primary_disabled_button="@string/disabled_buttom"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:title_primary_button="@string/primary_button"
+        app:title_primary_disabled_button="@string/disabled_button" />
 
     <com.lehlagoo.legods.view.ProgressSecondaryButton
-        android:id="@+id/buttom_secondary"
+        android:id="@+id/button_secondary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dimen_medium"
-        app:layout_constraintTop_toBottomOf="@id/buttom_primary"
+        android:backgroundTint="@color/secondary_button_colors"
+        android:contentDescription="@string/secondary_button"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:backgroundTint="@color/secondary_button_colors"
-        app:title_secondary_button="@string/secondary_buttom"
-        app:title_secondary_disabled_button="@string/disabled_buttom"/>
+        app:layout_constraintTop_toBottomOf="@id/button_primary"
+        app:title_secondary_button="@string/secondary_button"
+        app:title_secondary_disabled_button="@string/disabled_button" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

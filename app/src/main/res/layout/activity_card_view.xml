@@ -10,7 +10,9 @@
         android:id="@+id/card_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/default_text_card_1"
         android:padding="@dimen/dimen_biggest"
+        android:contextClickable="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:number_comments="@string/default_comments_1"
@@ -21,7 +23,8 @@
         android:id="@+id/card_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/dimen_biggest"
+        android:contentDescription="@string/default_text_card_2"
+        android:contextClickable="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/card_1"
@@ -32,10 +35,10 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="360dp"
+        android:importantForAccessibility="no"
         android:padding="@dimen/dimen_biggest"
         android:src="@drawable/peep_standing_15"
         app:layout_constraintLeft_toLeftOf="parent"
-
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/card_2"
 

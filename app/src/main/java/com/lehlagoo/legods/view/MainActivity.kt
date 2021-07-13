@@ -27,24 +27,24 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.buttomPrimary.setOnClickListener {
-            binding.buttomPrimary.setDisabled()
+        binding.buttonPrimary.setOnClickListener {
+            binding.buttonPrimary.setDisabled()
             val intent = Intent(this, ImageAvatarCardActivity::class.java)
 
             lifecycleScope.launch {
                 delay(2_000)
-                binding.buttomPrimary.setNormal()
+                binding.buttonPrimary.setNormal()
                 startActivity(intent)
             }
 
         }
 
-        binding.buttomSecondary.setOnClickListener {
-            binding.buttomSecondary.setDisabled()
+        binding.buttonSecondary.setOnClickListener {
+            binding.buttonSecondary.setDisabled()
             val intent = Intent(this, CardViewActivity::class.java)
             lifecycleScope.launch {
                 delay(2_000)
-                binding.buttomSecondary.setNormal()
+                binding.buttonSecondary.setNormal()
                 startActivity(intent)
             }
         }

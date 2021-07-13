@@ -5,13 +5,13 @@
     android:id="@+id/avatar_card_layout"
     android:layout_width="match_parent"
     android:layout_height="84dp"
-    tools:background="@drawable/card_view_avatar"
-    >
+    tools:background="@drawable/card_view_avatar">
 
     <ImageView
         android:id="@+id/iv_avatar_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
         android:paddingStart="@dimen/dimen_small"
         android:paddingTop="@dimen/dimen_big"
         android:paddingEnd="@dimen/dimen_small"
@@ -42,8 +42,9 @@
         android:id="@+id/follow_button"
         style="@style/TextAppearance.Subtitle4"
         android:layout_width="wrap_content"
-        android:layout_height="38dp"
-        android:layout_marginRight="@dimen/dimen_medium"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_medium"
+        android:contentDescription="@string/follow_button"
         android:text="@string/follow_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"

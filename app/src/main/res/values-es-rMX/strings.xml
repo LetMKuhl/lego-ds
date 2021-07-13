@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="primary_buttom">Ir a avatar</string>
-    <string name="disabled_buttom">Cargando...</string>
-    <string name="secondary_buttom">Ir a las cartas</string>
+    <string name="primary_button">Ir a avatar</string>
+    <string name="disabled_button">Cargando...</string>
+    <string name="secondary_button">Ir a las cartas</string>
     <string name="follow_button">Seguir</string>
     <string name="unfollow_status">Dejar de seguir</string>
     <string name="default_text_card">¡Los sueños se vuelven realidad!</string>
     <string name="default_text_card_2">¡Para los que creen en lo imposible!</string>
     <string name="default_text_card_1">¡Los sueños se vuelven realidad!</string>
+    <string name="description_image_main">Dos mujeres y un hombre que está mirando su teléfono celular sobre un fondo amarillo.</string>
+    <string name="username_job_description">Nombre: Letícia Mori, Trabajo: Desarrolladora de Android</string>
+    <string name="image_description">Imagen: un hombre y una mujer</string>
 </resources>

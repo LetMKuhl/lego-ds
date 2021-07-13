@@ -24,6 +24,7 @@
         android:layout_height="match_parent"
         android:visibility="visible"
         android:gravity="center"
+        android:importantForAccessibility="no"
         app:srcCompat="@drawable/chevron_right"
         app:layout_constraintLeft_toRightOf="@+id/text_secondary_button"
         tools:ignore="MissingConstraints"
