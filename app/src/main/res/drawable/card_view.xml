@@ -3,14 +3,14 @@
 
     <corners android:radius="16dp" />
 
-    <solid android:color="@color/color_black_700" />
+    <solid android:color="@color/color_white" />
 
     <size
-        android:width="167dp"
-        android:height="60dp" />
+        android:width="327dp"
+        android:height="84dp" />
 
     <stroke
         android:width="2dp"
-        android:color="@color/color_black"/>
+        android:color="@color/color_black" />
 
 </shape>

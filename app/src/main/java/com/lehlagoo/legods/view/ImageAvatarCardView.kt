@@ -75,6 +75,7 @@ class ImageAvatarCardView @JvmOverloads constructor(
             if (followButtonResId != 0) {
                 followButton = context.getString(followButtonResId)
             }
+
             val unfollowButtonResId =
                 attributes.getResourceId(
                     R.styleable.ImageAvatarCardView_unfollow_button, 0
@@ -108,7 +109,6 @@ class ImageAvatarCardView @JvmOverloads constructor(
 
         avatarBinding.avatarUsername.run {
             isEnabled = buttonState.isEnabled
-//            isClickable = buttonState.isEnabled
         }
 
         when (usernameState) {
@@ -118,7 +118,6 @@ class ImageAvatarCardView @JvmOverloads constructor(
 
         avatarBinding.avatarUsernameJob.run {
             isEnabled = buttonState.isEnabled
-//            isClickable = buttonState.isEnabled
         }
 
         when (jobState) {

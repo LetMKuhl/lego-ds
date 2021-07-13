@@ -18,4 +18,11 @@
         <attr name="unfollow_button" format="string" />
     </declare-styleable>
 
+    <declare-styleable name="CardView">
+        <attr name="text_card" format="string"/>
+        <attr name="number_comments" format="string"/>
+        <attr name="number_likes" format="string"/>
+
+    </declare-styleable>
+
 </resources>

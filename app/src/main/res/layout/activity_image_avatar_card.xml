@@ -2,8 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/avatarCardConstraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
     android:background="@color/color_yellow"
     tools:context=".view.ImageAvatarCardActivity">
 
@@ -11,21 +13,21 @@
         android:id="@+id/avatar_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        android:backgroundTint="@color/color_white"
         android:layout_marginStart="@dimen/dimen_medium"
-        android:layout_marginEnd="@dimen/dimen_medium"
         android:layout_marginTop="@dimen/dimen_biggest"
-        app:follow_button="@string/follow_button"
+        android:layout_marginEnd="@dimen/dimen_medium"
+        android:backgroundTint="@color/color_white"
         app:avatar_username="@string/default_username"
         app:avatar_username_job="@string/default_job"
-        />
+        app:follow_button="@string/follow_button"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/image_peep"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dimen_bigger"
-        app:layout_constraintTop_toBottomOf="@+id/avatar_card"
-        android:src="@drawable/big_standing_color_1"/>
+        android:src="@drawable/big_standing_color_1"
+        app:layout_constraintTop_toBottomOf="@+id/avatar_card" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

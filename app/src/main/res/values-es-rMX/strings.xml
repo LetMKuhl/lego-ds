@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LegoDS</string>
-    <string name="primary_buttom">Ir a Avatar</string>
+    <string name="primary_buttom">Ir a avatar</string>
     <string name="disabled_buttom">Cargando...</string>
-    <string name="secondary_buttom">Secundario</string>
+    <string name="secondary_buttom">Ir a las cartas</string>
     <string name="follow_button">Seguir</string>
     <string name="unfollow_status">Dejar de seguir</string>
-    <string name="default_username">Leticia Mori</string>
-    <string name="default_job">Dev Android</string>
+    <string name="default_text_card">¡Los sueños se vuelven realidad!</string>
+    <string name="default_text_card_2">¡Para los que creen en lo imposible!</string>
+    <string name="default_text_card_1">¡Los sueños se vuelven realidad!</string>
 </resources>
